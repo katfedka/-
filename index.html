@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>КАВА КЛАСУ СПЕШЕЛТІ | Кава на колесах | Київ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .hero-bg {
+            background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.9)), url('image_0.png'); /* Replace with your image URL or upload to a host */
+            background-size: cover;
+            background-position: center;
+        }
+        .text-glow {
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.4);
+        }
+        .btn-premium {
+            background: linear-gradient(45deg, #FFD700, #C9A0DC); /* Gold & Lavender for Specialty Feel */
+            border: none;
+            color: black;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: transform 0.2s ease;
+        }
+        .btn-premium:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased font-sans">
+
+    <header class="fixed w-full z-50 bg-gray-950 bg-opacity-90 border-b border-gray-800">
+        <nav class="container mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="#" class="text-2xl font-bold text-glow text-white tracking-widest">
+                КАВА<span class="text-indigo-400">КЛАСУ</span>
+            </a>
+            <div class="space-x-4 text-sm font-medium text-gray-400 hidden md:flex">
+                <a href="#about" class="hover:text-white">ЧОМУ МИ</a>
+                <a href="#menu" class="hover:text-white">МЕНЮ</a>
+                <a href="#location" class="hover:text-white">ЛОКАЦІЇ</a>
+            </div>
+            <a href="#about" class="btn-premium px-6 py-2 rounded-full text-sm">Знайти нас</a>
+        </nav>
+    </header>
+
+    <section class="hero-bg min-h-screen flex items-center justify-center text-center pt-24 px-6 relative">
+        <div class="container mx-auto max-w-4xl z-10">
+            <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-glow text-white tracking-tight">
+                Кава класу Спешелті, <br>що приїжджає до вас.
+            </h1>
+            <p class="text-lg md:text-2xl mt-6 text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                Свіжообсмажена 100% Арабіка, ідеальна пінка та бездоганна гігієна. Ваша улюблена кава більше не "з киоску".
+            </p>
+            <div class="mt-12 flex flex-col md:flex-row gap-6 items-center justify-center">
+                <a href="#about" class="btn-premium px-10 py-4 rounded-full text-lg shadow-lg">Знайти нас</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 bg-gray-950 px-6 border-b border-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-extrabold text-center text-glow text-white tracking-tighter">Без компромісів за якістю — лише за ціною.</h2>
+            <p class="text-center text-xl mt-4 text-gray-400 max-w-2xl mx-auto">Ми закриваємо боли Києва, пропонуючи каву світового стандарту.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 mt-16 text-center">
+                <div class="bg-gray-900 p-10 rounded-3xl border border-gray-800 shadow-xl transition hover:border-indigo-500 hover:shadow-indigo-900/40 hover:transform hover:-translate-y-1">
+                    <div class="text-indigo-400 text-5xl font-bold">✅</div>
+                    <h3 class="text-2xl font-bold mt-6 text-white tracking-tight">Спешелті Зерно</h3>
+                    <p class="mt-4 text-gray-400 leading-relaxed">Жодної дешевшої робусти. Тільки 100% Арабіка класу Спешелті (80+ SCAA), обсмажена в Києві.</p>
+                </div>
+                <div class="bg-gray-900 p-10 rounded-3xl border border-gray-800 shadow-xl transition hover:border-indigo-500 hover:shadow-indigo-900/40 hover:transform hover:-translate-y-1">
+                    <div class="text-indigo-400 text-5xl font-bold">✅</div>
+                    <h3 class="text-2xl font-bold mt-6 text-white tracking-tight">Ідеальна Стерильність</h3>
+                    <p class="mt-4 text-gray-400 leading-relaxed">Прозорий процес приготування та професійне обладнання La Marzocco для гарантії смаку.</p>
+                </div>
+                <div class="bg-gray-900 p-10 rounded-3xl border border-gray-800 shadow-xl transition hover:border-indigo-500 hover:shadow-indigo-900/40 hover:transform hover:-translate-y-1">
+                    <div class="text-indigo-400 text-5xl font-bold">✅</div>
+                    <h3 class="text-2xl font-bold mt-6 text-white tracking-tight">100% Безготівковий Київ</h3>
+                    <p class="mt-4 text-gray-400 leading-relaxed">Більше жодної готівки. Приймаємо карти, Apple Pay, Google Pay за 3 секунди.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-24 bg-gray-900 px-6 border-b border-gray-800">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-extrabold text-glow text-white tracking-tighter">Наш ТОП-4 за стандартом "Спешелті"</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16">
+                <div class="bg-gray-950 p-6 rounded-2xl border border-gray-800 hover:border-gray-700 hover:shadow-2xl transition">
+                    <div class="bg-gray-800 h-40 w-full rounded-lg mb-4 flex items-center justify-center text-4xl text-gray-600">☕</div>
+                    <h4 class="text-xl font-semibold text-white tracking-tight">Еспресо</h4>
+                    <p class="text-sm text-gray-500 mt-2">Класичний, насичений смак 100% Арабіки.</p>
+                </div>
+                <div class="bg-gray-950 p-6 rounded-2xl border border-gray-800 hover:border-gray-700 hover:shadow-2xl transition">
+                    <div class="bg-gray-800 h-40 w-full rounded-lg mb-4 flex items-center justify-center text-4xl text-gray-600">☕</div>
+                    <h4 class="text-xl font-semibold text-white tracking-tight">Капучино</h4>
+                    <p class="text-sm text-gray-500 mt-2">Ідеальна молочна пінка.</p>
+                </div>
+                <div class="bg-gray-950 p-6 rounded-2xl border border-gray-800 hover:border-gray-700 hover:shadow-2xl transition">
+                    <div class="bg-gray-800 h-40 w-full rounded-lg mb-4 flex items-center justify-center text-4xl text-gray-600">☕</div>
+                    <h4 class="text-xl font-semibold text-white tracking-tight">Лате</h4>
+                    <p class="text-sm text-gray-500 mt-2">М'який та ніжний кавовий напій.</p>
+                </div>
+                <div class="bg-gray-950 p-6 rounded-2xl border border-gray-800 hover:border-gray-700 hover:shadow-2xl transition">
+                    <div class="bg-gray-800 h-40 w-full rounded-lg mb-4 flex items-center justify-center text-4xl text-gray-600">🌿</div>
+                    <h4 class="text-xl font-semibold text-white tracking-tight">Матча-Лате</h4>
+                    <p class="text-sm text-gray-500 mt-2">Енергія та користь матча преміум класу.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="py-24 bg-gray-950 px-6 border-b border-gray-800">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-extrabold text-center text-glow text-white tracking-tighter">Де ми сьогодні? Перевірте карту!</h2>
+            <p class="text-center text-xl mt-4 text-gray-400 max-w-2xl mx-auto">Ми закриваємо боли Києва, пропонуючи каву світового стандарту.</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mt-16 items-center">
+                <div class="bg-gray-900 h-96 w-full rounded-3xl border border-gray-800 flex items-center justify-center text-5xl text-gray-700">📍 (Map placeholder)</div>
+                <div class="space-y-6">
+                    <h3 class="text-3xl font-bold text-white tracking-tight">Мобільна кав'ярня — де ми сьогодні?</h3>
+                    <p class="text-gray-400 leading-relaxed">Ми постійно змінюємо локації в "гарячі" точки та пропонуємо передзамовлення через Telegram-бота.</p>
+                    <a href="#" class="btn-premium inline-block px-10 py-4 rounded-full text-lg shadow-lg">Знайти на карті</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-24 bg-gray-900 px-6 border-b border-gray-800 text-center">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-4xl font-extrabold text-glow text-white tracking-tighter">Хочете каву за 3 хвилини без черги?</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-16 items-center">
+                <div class="bg-gray-950 p-10 rounded-3xl border border-gray-800">
+                    <div class="text-indigo-400 text-5xl font-bold mb-4">✅</div>
+                    <h3 class="text-2xl font-bold mt-6 text-white tracking-tight">Передзамовлення за 3 хвилини</h3>
+                    <p class="mt-4 text-gray-400 leading-relaxed">Мобільність та Передзамовлення: Ми постійно змінюємо локації в "гарячі" точки та пропонуємо передзамовлення через Telegram-бота.</p>
+                </div>
+                <div class="bg-gray-950 p-10 rounded-3xl border border-gray-800">
+                    <div class="text-indigo-400 text-5xl font-bold mb-4">🎁</div>
+                    <h3 class="text-2xl font-bold mt-6 text-white tracking-tight">Знижка 20% на перше замовлення</h3>
+                    <p class="mt-4 text-gray-400 leading-relaxed">Скачуйте Telegram-бота та отримайте знижку 20% на перше замовлення.</p>
+                </div>
+            </div>
+            <a href="#" class="btn-premium inline-block px-10 py-4 rounded-full text-lg shadow-lg mt-12">Скачати Telegram-бота</a>
+        </div>
+    </section>
+    
+</body>
+</html>
